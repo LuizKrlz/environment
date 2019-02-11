@@ -8,6 +8,7 @@ RUN apk update && \
   apk add bash && \
   apk add --no-cache curl && \
   touch $HOME/.profile && \
-  curl -o- -L https://yarnpkg.com/install.sh | bash
+  curl -o- -L https://yarnpkg.com/install.sh | bash && \
+  yarn global add nodemon
 
 WORKDIR /home/app
