@@ -1,3 +1,3 @@
 FROM luizkrlz/environment
 
-RUN yarn add @adonisjs/cli
+RUN yarn global add @adonisjs/cli
